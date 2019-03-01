@@ -10,7 +10,7 @@ with open('4pp.csv', 'r') as csv_file:
 
     for row in postcode_csv:
         if row[1] == postcode:
-            gemeente = row[2]
+            gemeente = row[4]
             print(gemeente)
 
 
